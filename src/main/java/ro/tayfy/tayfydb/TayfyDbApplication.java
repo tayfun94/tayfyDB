@@ -12,9 +12,6 @@ public class TayfyDbApplication {
 		SpringApplication springApplication = new SpringApplication(TayfyDbApplication.class);
 		springApplication.setBannerMode(Banner.Mode.OFF);
 		appContext = springApplication.run(args);
-
-		//UsersDAO usersDAO = appContext.getBean(UsersDAO.class);
-		//usersDAO.createPerson();
 	}
 
 }
